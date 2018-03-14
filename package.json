@@ -17,5 +17,9 @@
     "api-aw"
   ],
   "author": "Diego Rodrigues (diego_henriquerodrigues@hotmail.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
 }
