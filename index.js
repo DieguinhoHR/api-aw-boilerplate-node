@@ -1,6 +1,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 
+require('dotenv').config() // allows access to the environment variables
+
 const app = express()
 
 app.use(bodyParser.json())
@@ -10,4 +12,8 @@ app.get('/', (req, res) => {
   res.send('Welcome')
 })
 
-app.listen(3000)
+const PORT = process.env.APP_PORT || 3000;
+ 
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
+});
