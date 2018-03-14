@@ -8,9 +8,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-app.get('/', (req, res) => {
-  res.send('Welcome')
-})
+require('./app/controllers/index')(app)
 
 const PORT = process.env.APP_PORT || 3000;
  
