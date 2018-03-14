@@ -1,0 +1,21 @@
+{
+  "name": "api-aw-boilerplate-node",
+  "version": "1.0.0",
+  "description": "Boilerplate app for a api-aw-boilerplate-node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh:"
+  },
+  "keywords": [
+    "api",
+    "jsonapi",
+    "boilerplate",
+    "api-aw"
+  ],
+  "author": "Diego Rodrigues (diego_henriquerodrigues@hotmail.com)",
+  "license": "MIT"
+}
